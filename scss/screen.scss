@@ -1,6 +1,161 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/images";
+@import "compass/css3/text-shadow";
+@import "compass/css3/transition";
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    color: #333;
+    background: url("/img/whitenoise.png") #ede7db;
+    font: 20px "Open Sans", "Gill Sans", "Gill Sans MT", sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+
+}
+
+li {
+    list-style-type: disc;
+    margin-left: 2em;
+    padding-left: .25em;
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.leftright {
+    overflow: auto;
+}
+
+.leftright .left {
+    float: left;
+}
+
+.leftright .right {
+    float: right;
+}
+
+#topbar {
+    margin: .5em auto;
+    font-size: 14px;
+}
+
+#header-container {
+    width: 105%;
+    position: relative;
+    left: -5%;
+    overflow: hidden;
+    margin: .5em 0;
+    padding: 1em 0 2.5em 0;
+    background: url("/img/bluenoise.png") #765542;
+    @include box-shadow(inset 20px 0 10px rgba(0, 0, 0, .6));
+    @include text-shadow(1px 1px 2px rgba(0, 0, 0, .4));
+}
+
+#header {
+    width: 740px;
+    padding: 0 0 0 5%;
+}
+
+#hero h1 {    
+    font-family: "Lato", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+    font-weight: bold;
+    font-size: 80px;
+
+    .first {
+        color: #ffae3c;
+    }
+
+    .second {
+        color: #7ce7a3;
+    }
+
+    .third {
+        color: #dc5d6e;
+    }
+}
+
+.cta {
+    color: #385214;
+    @include background(
+        linear-gradient(100% 100% 90deg, #99C757, #CCFE8B)
+        repeat scroll 0 0 transparent
+    );
+    padding: 16px 21px;
+    text-decoration: none;
+    @include text-shadow(0 1px 1px rgba(255, 255, 255, 0.7));
+    @include border-radius(7px);
+    @include transition(all 0.25s ease 0s);
+    font-family: "Segoe UI", "Lucida Sans", "Tahoma", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: left;
+    outline-style: none;
+}
+
+.small-cta {
+    font-size: 18px;
+    padding: 12px 17px;
+}
+
+.cta:hover, .cta:active {
+    color: #333;
+    @include box-shadow(0 0px 5px rgba(255, 255, 255, 0.6));
+}
+
+.cta:active {
+    @include background(
+        linear-gradient(100% 100% 90deg, #CCFE8B, #99C757)
+        repeat scroll 0 0 transparent
+    );
+}
+
+#tagline {
+    color: #ffe59c;
+    padding: .5em 0 3em;
+    font: bold italic 20px "Cambria", "Times New Roman", serif;
+    text-transform: uppercase;
+}
+
+#header aside {
+    display: inline;
+    position: relative;
+    top: -3px;
+    text-shadow: none;
+    color: #e6e6ff;
+    padding-left: .5em;
+}
+
+#main-container {
+
+    line-height: 1.3em;
+
+    padding: 1em 0;
+
+    dt {
+        font-weight: bold;
+    }
+
+    dd {
+        padding-left: 3em;
+        margin-bottom: 1em;
+    }
+
+}
+
+#footer-container {
+    margin-top: 1em;
+    height: 200px;
+    @include background(url("/img/tannoise.png"));
+    @include box-shadow(inset 0 12px 6px -6px rgba(0, 0, 0, .4));
+}

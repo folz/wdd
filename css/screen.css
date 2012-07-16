@@ -1,7 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 17, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -65,4 +61,189 @@ a img {
 /* line 114, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
+}
+
+/* line 8, ../scss/screen.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 13, ../scss/screen.scss */
+body {
+  color: #333;
+  background: url("/img/whitenoise.png") #ede7db;
+  font: 20px "Open Sans", "Gill Sans", "Gill Sans MT", sans-serif;
+  overflow-x: hidden;
+}
+
+/* line 24, ../scss/screen.scss */
+li {
+  list-style-type: disc;
+  margin-left: 2em;
+  padding-left: .25em;
+}
+
+/* line 30, ../scss/screen.scss */
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 35, ../scss/screen.scss */
+.leftright {
+  overflow: auto;
+}
+
+/* line 39, ../scss/screen.scss */
+.leftright .left {
+  float: left;
+}
+
+/* line 43, ../scss/screen.scss */
+.leftright .right {
+  float: right;
+}
+
+/* line 47, ../scss/screen.scss */
+#topbar {
+  margin: .5em auto;
+  font-size: 14px;
+}
+
+/* line 52, ../scss/screen.scss */
+#header-container {
+  width: 105%;
+  position: relative;
+  left: -5%;
+  overflow: hidden;
+  margin: .5em 0;
+  padding: 1em 0 2.5em 0;
+  background: url("/img/bluenoise.png") #765542;
+  -webkit-box-shadow: inset 20px 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 20px 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 20px 0 10px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* line 64, ../scss/screen.scss */
+#header {
+  width: 740px;
+  padding: 0 0 0 5%;
+}
+
+/* line 69, ../scss/screen.scss */
+#hero h1 {
+  font-family: "Lato", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+  font-weight: bold;
+  font-size: 80px;
+}
+/* line 74, ../scss/screen.scss */
+#hero h1 .first {
+  color: #ffae3c;
+}
+/* line 78, ../scss/screen.scss */
+#hero h1 .second {
+  color: #7ce7a3;
+}
+/* line 82, ../scss/screen.scss */
+#hero h1 .third {
+  color: #dc5d6e;
+}
+
+/* line 87, ../scss/screen.scss */
+.cta {
+  color: #385214;
+  background: -webkit-gradient(linear, 100% 100% 90deg, 0% 0% 90deg, color-stop(0%, #99c757), color-stop(100%, #ccfe8b)) repeat scroll 0 0 transparent;
+  background: -webkit-linear-gradient(100% 100% 90deg, #99c757, #ccfe8b) repeat scroll 0 0 transparent;
+  background: -moz-linear-gradient(100% 100% 90deg, #99c757, #ccfe8b) repeat scroll 0 0 transparent;
+  background: -o-linear-gradient(100% 100% 90deg, #99c757, #ccfe8b) repeat scroll 0 0 transparent;
+  background: -ms-linear-gradient(100% 100% 90deg, #99c757, #ccfe8b) repeat scroll 0 0 transparent;
+  background: linear-gradient(100% 100% 90deg, #99c757, #ccfe8b) repeat scroll 0 0 transparent;
+  padding: 16px 21px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -ms-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  font-family: "Segoe UI", "Lucida Sans", "Tahoma", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  outline-style: none;
+}
+
+/* line 106, ../scss/screen.scss */
+.small-cta {
+  font-size: 18px;
+  padding: 12px 17px;
+}
+
+/* line 111, ../scss/screen.scss */
+.cta:hover, .cta:active {
+  color: #333;
+  -webkit-box-shadow: 0 0px 5px rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: 0 0px 5px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0px 5px rgba(255, 255, 255, 0.6);
+}
+
+/* line 116, ../scss/screen.scss */
+.cta:active {
+  background: -webkit-gradient(linear, 100% 100% 90deg, 0% 0% 90deg, color-stop(0%, #ccfe8b), color-stop(100%, #99c757)) repeat scroll 0 0 transparent;
+  background: -webkit-linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
+  background: -moz-linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
+  background: -o-linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
+  background: -ms-linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
+  background: linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
+}
+
+/* line 123, ../scss/screen.scss */
+#tagline {
+  color: #ffe59c;
+  padding: .5em 0 3em;
+  font: bold italic 20px "Cambria", "Times New Roman", serif;
+  text-transform: uppercase;
+}
+
+/* line 130, ../scss/screen.scss */
+#header aside {
+  display: inline;
+  position: relative;
+  top: -3px;
+  text-shadow: none;
+  color: #e6e6ff;
+  padding-left: .5em;
+}
+
+/* line 139, ../scss/screen.scss */
+#main-container {
+  line-height: 1.3em;
+  padding: 1em 0;
+}
+/* line 145, ../scss/screen.scss */
+#main-container dt {
+  font-weight: bold;
+}
+/* line 149, ../scss/screen.scss */
+#main-container dd {
+  padding-left: 3em;
+  margin-bottom: 1em;
+}
+
+/* line 156, ../scss/screen.scss */
+#footer-container {
+  margin-top: 1em;
+  height: 200px;
+  background: url("/img/tannoise.png");
+  -webkit-box-shadow: inset 0 12px 6px -6px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0 12px 6px -6px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 12px 6px -6px rgba(0, 0, 0, 0.4);
 }
