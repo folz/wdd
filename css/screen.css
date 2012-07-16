@@ -154,12 +154,7 @@ li {
 /* line 87, ../scss/screen.scss */
 .cta {
   color: #385214;
-  background: -webkit-gradient(linear, 100% 100% 90deg, 0% 0% 90deg, color-stop(0%, #99c757), color-stop(100%, #ccfe8b)) repeat scroll 0 0 transparent;
-  background: -webkit-linear-gradient(100% 100% 90deg, #99c757, #ccfe8b) repeat scroll 0 0 transparent;
-  background: -moz-linear-gradient(100% 100% 90deg, #99c757, #ccfe8b) repeat scroll 0 0 transparent;
-  background: -o-linear-gradient(100% 100% 90deg, #99c757, #ccfe8b) repeat scroll 0 0 transparent;
-  background: -ms-linear-gradient(100% 100% 90deg, #99c757, #ccfe8b) repeat scroll 0 0 transparent;
-  background: linear-gradient(100% 100% 90deg, #99c757, #ccfe8b) repeat scroll 0 0 transparent;
+  background: url("/img/greenstripe.png") repeat scroll 0 0 transparent;
   padding: 16px 21px;
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);

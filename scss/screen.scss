@@ -87,7 +87,7 @@ li {
 .cta {
     color: #385214;
     @include background(
-        linear-gradient(100% 100% 90deg, #99C757, #CCFE8B)
+        url("/img/greenstripe.png")
         repeat scroll 0 0 transparent
     );
     padding: 16px 21px;
