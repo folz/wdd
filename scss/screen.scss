@@ -5,6 +5,10 @@
 @import "compass/css3/text-shadow";
 @import "compass/css3/transition";
 
+$times: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+
+$trebuchet: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitsream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+
 html, body {
     width: 100%;
     height: 100%;
@@ -13,7 +17,7 @@ html, body {
 body {
     color: #333;
     background: url("/img/whitenoise.png") #ede7db;
-    font: 20px "Open Sans", "Gill Sans", "Gill Sans MT", sans-serif;
+    font: 20px $trebuchet;
     overflow-x: hidden;
 }
 
@@ -67,9 +71,9 @@ li {
 }
 
 #hero h1 {    
-    font-family: "Lato", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+    font-family: $trebuchet;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 86px;
 
     .first {
         color: #ffae3c;
@@ -95,11 +99,8 @@ li {
     @include text-shadow(0 1px 1px rgba(255, 255, 255, 0.7));
     @include border-radius(7px);
     @include transition(all 0.25s ease 0s);
-    font-family: "Segoe UI", "Lucida Sans", "Tahoma", sans-serif;
-    font-weight: bold;
-    font-size: 24px;
+    font: bold 24px $trebuchet;
     text-transform: uppercase;
-    text-align: left;
     outline-style: none;
 }
 
@@ -123,8 +124,7 @@ li {
 #tagline {
     color: #ffe59c;
     padding: .5em 0 3em;
-    font: bold italic 20px "Cambria", "Times New Roman", serif;
-    text-transform: uppercase;
+    font: bold italic 20px $times;
 }
 
 #header aside {
@@ -139,16 +139,17 @@ li {
 #main-container {
 
     line-height: 1.3em;
-
     padding: 1em 0;
+    @include text-shadow(1px 1px 0 rgba(255, 255, 255, .6));
 
     dt {
-        font-weight: bold;
+        font: bold 24px $times;
     }
 
     dd {
         padding-left: 3em;
         margin-bottom: 1em;
+        font-size: 16px;
     }
 
 }

@@ -63,55 +63,55 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 8, ../scss/screen.scss */
+/* line 12, ../scss/screen.scss */
 html, body {
   width: 100%;
   height: 100%;
 }
 
-/* line 13, ../scss/screen.scss */
+/* line 17, ../scss/screen.scss */
 body {
   color: #333;
   background: url("/img/whitenoise.png") #ede7db;
-  font: 20px "Open Sans", "Gill Sans", "Gill Sans MT", sans-serif;
+  font: 20px "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitsream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   overflow-x: hidden;
 }
 
-/* line 24, ../scss/screen.scss */
+/* line 28, ../scss/screen.scss */
 li {
   list-style-type: disc;
   margin-left: 2em;
   padding-left: .25em;
 }
 
-/* line 30, ../scss/screen.scss */
+/* line 34, ../scss/screen.scss */
 .content {
   width: 960px;
   margin: 0 auto;
 }
 
-/* line 35, ../scss/screen.scss */
+/* line 39, ../scss/screen.scss */
 .leftright {
   overflow: auto;
 }
 
-/* line 39, ../scss/screen.scss */
+/* line 43, ../scss/screen.scss */
 .leftright .left {
   float: left;
 }
 
-/* line 43, ../scss/screen.scss */
+/* line 47, ../scss/screen.scss */
 .leftright .right {
   float: right;
 }
 
-/* line 47, ../scss/screen.scss */
+/* line 51, ../scss/screen.scss */
 #topbar {
   margin: .5em auto;
   font-size: 14px;
 }
 
-/* line 52, ../scss/screen.scss */
+/* line 56, ../scss/screen.scss */
 #header-container {
   width: 105%;
   position: relative;
@@ -126,32 +126,32 @@ li {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 64, ../scss/screen.scss */
+/* line 68, ../scss/screen.scss */
 #header {
   width: 740px;
   padding: 0 0 0 5%;
 }
 
-/* line 69, ../scss/screen.scss */
+/* line 73, ../scss/screen.scss */
 #hero h1 {
-  font-family: "Lato", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitsream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 86px;
 }
-/* line 74, ../scss/screen.scss */
+/* line 78, ../scss/screen.scss */
 #hero h1 .first {
   color: #ffae3c;
 }
-/* line 78, ../scss/screen.scss */
+/* line 82, ../scss/screen.scss */
 #hero h1 .second {
   color: #7ce7a3;
 }
-/* line 82, ../scss/screen.scss */
+/* line 86, ../scss/screen.scss */
 #hero h1 .third {
   color: #dc5d6e;
 }
 
-/* line 87, ../scss/screen.scss */
+/* line 91, ../scss/screen.scss */
 .cta {
   color: #385214;
   background: url("/img/greenstripe.png") repeat scroll 0 0 transparent;
@@ -168,21 +168,18 @@ li {
   -ms-transition: all 0.25s ease 0s;
   -o-transition: all 0.25s ease 0s;
   transition: all 0.25s ease 0s;
-  font-family: "Segoe UI", "Lucida Sans", "Tahoma", sans-serif;
-  font-weight: bold;
-  font-size: 24px;
+  font: bold 24px "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitsream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   text-transform: uppercase;
-  text-align: left;
   outline-style: none;
 }
 
-/* line 106, ../scss/screen.scss */
+/* line 107, ../scss/screen.scss */
 .small-cta {
   font-size: 18px;
   padding: 12px 17px;
 }
 
-/* line 111, ../scss/screen.scss */
+/* line 112, ../scss/screen.scss */
 .cta:hover, .cta:active {
   color: #333;
   -webkit-box-shadow: 0 0px 5px rgba(255, 255, 255, 0.6);
@@ -190,7 +187,7 @@ li {
   box-shadow: 0 0px 5px rgba(255, 255, 255, 0.6);
 }
 
-/* line 116, ../scss/screen.scss */
+/* line 117, ../scss/screen.scss */
 .cta:active {
   background: -webkit-gradient(linear, 100% 100% 90deg, 0% 0% 90deg, color-stop(0%, #ccfe8b), color-stop(100%, #99c757)) repeat scroll 0 0 transparent;
   background: -webkit-linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
@@ -200,12 +197,11 @@ li {
   background: linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
 }
 
-/* line 123, ../scss/screen.scss */
+/* line 124, ../scss/screen.scss */
 #tagline {
   color: #ffe59c;
   padding: .5em 0 3em;
-  font: bold italic 20px "Cambria", "Times New Roman", serif;
-  text-transform: uppercase;
+  font: bold italic 20px Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
 
 /* line 130, ../scss/screen.scss */
@@ -222,18 +218,20 @@ li {
 #main-container {
   line-height: 1.3em;
   padding: 1em 0;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
 }
 /* line 145, ../scss/screen.scss */
 #main-container dt {
-  font-weight: bold;
+  font: bold 24px Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
 /* line 149, ../scss/screen.scss */
 #main-container dd {
   padding-left: 3em;
   margin-bottom: 1em;
+  font-size: 16px;
 }
 
-/* line 156, ../scss/screen.scss */
+/* line 157, ../scss/screen.scss */
 #footer-container {
   margin-top: 1em;
   height: 200px;
