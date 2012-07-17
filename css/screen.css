@@ -117,8 +117,6 @@ li {
   position: relative;
   left: -5%;
   overflow: hidden;
-  margin: .5em 0;
-  padding: 1em 0 2.5em 0;
   background: url("/img/bluenoise.png") #765542;
   -webkit-box-shadow: inset 20px 0 10px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: inset 20px 0 10px rgba(0, 0, 0, 0.6);
@@ -126,38 +124,53 @@ li {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 68, ../scss/screen.scss */
+/* line 66, ../scss/screen.scss */
 #header {
   width: 740px;
   padding: 0 0 0 5%;
 }
 
-/* line 73, ../scss/screen.scss */
+/* line 71, ../scss/screen.scss */
+#hero {
+  margin: 1em 0;
+}
+
+/* line 75, ../scss/screen.scss */
 #hero h1 {
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitsream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   font-weight: bold;
   font-size: 86px;
 }
-/* line 78, ../scss/screen.scss */
+/* line 80, ../scss/screen.scss */
 #hero h1 .first {
   color: #ffae3c;
 }
-/* line 82, ../scss/screen.scss */
+/* line 84, ../scss/screen.scss */
 #hero h1 .second {
   color: #7ce7a3;
 }
-/* line 86, ../scss/screen.scss */
+/* line 88, ../scss/screen.scss */
 #hero h1 .third {
   color: #dc5d6e;
 }
 
-/* line 91, ../scss/screen.scss */
+/* line 93, ../scss/screen.scss */
+#tagline {
+  position: relative;
+  top: -2em;
+  color: #ffe59c;
+  font: bold italic 20px Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+  margin: 0 0 1em;
+}
+
+/* line 101, ../scss/screen.scss */
 .cta {
+  position: relative;
+  top: -1em;
+  padding: 16px 21px;
   color: #385214;
   background: url("/img/greenstripe.png") repeat scroll 0 0 transparent;
-  padding: 16px 21px;
-  text-decoration: none;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+  outline-style: none;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
@@ -168,18 +181,20 @@ li {
   -ms-transition: all 0.25s ease 0s;
   -o-transition: all 0.25s ease 0s;
   transition: all 0.25s ease 0s;
-  font: bold 24px "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitsream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font: bold 24px/3em "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitsream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-decoration: none;
   text-transform: uppercase;
-  outline-style: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
 }
 
-/* line 107, ../scss/screen.scss */
+/* line 119, ../scss/screen.scss */
 .small-cta {
+  position: static;
   font-size: 18px;
   padding: 12px 17px;
 }
 
-/* line 112, ../scss/screen.scss */
+/* line 125, ../scss/screen.scss */
 .cta:hover, .cta:active {
   color: #333;
   -webkit-box-shadow: 0 0px 5px rgba(255, 255, 255, 0.6);
@@ -187,7 +202,7 @@ li {
   box-shadow: 0 0px 5px rgba(255, 255, 255, 0.6);
 }
 
-/* line 117, ../scss/screen.scss */
+/* line 130, ../scss/screen.scss */
 .cta:active {
   background: -webkit-gradient(linear, 100% 100% 90deg, 0% 0% 90deg, color-stop(0%, #ccfe8b), color-stop(100%, #99c757)) repeat scroll 0 0 transparent;
   background: -webkit-linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
@@ -197,41 +212,34 @@ li {
   background: linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
 }
 
-/* line 124, ../scss/screen.scss */
-#tagline {
-  color: #ffe59c;
-  padding: .5em 0 3em;
-  font: bold italic 20px Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-}
-
-/* line 130, ../scss/screen.scss */
+/* line 137, ../scss/screen.scss */
 #header aside {
-  display: inline;
   position: relative;
-  top: -3px;
+  top: -1.3em;
+  display: inline;
+  padding: 0 0 0 .5em;
+  color: #eee8dc;
   text-shadow: none;
-  color: #e6e6ff;
-  padding-left: .5em;
 }
 
-/* line 139, ../scss/screen.scss */
+/* line 146, ../scss/screen.scss */
 #main-container {
   line-height: 1.3em;
   padding: 1em 0;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
 }
-/* line 145, ../scss/screen.scss */
+/* line 152, ../scss/screen.scss */
 #main-container dt {
   font: bold 24px Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
-/* line 149, ../scss/screen.scss */
+/* line 156, ../scss/screen.scss */
 #main-container dd {
   padding-left: 3em;
   margin-bottom: 1em;
   font-size: 16px;
 }
 
-/* line 157, ../scss/screen.scss */
+/* line 164, ../scss/screen.scss */
 #footer-container {
   margin-top: 1em;
   height: 200px;
