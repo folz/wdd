@@ -218,7 +218,7 @@ li {
 #main-container {
   line-height: 1.3em;
   padding: 1em 0;
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
 }
 /* line 145, ../scss/screen.scss */
 #main-container dt {

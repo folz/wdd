@@ -140,7 +140,7 @@ li {
 
     line-height: 1.3em;
     padding: 1em 0;
-    @include text-shadow(1px 1px 0 rgba(255, 255, 255, .6));
+    @include text-shadow(1px 1px 1px rgba(255, 255, 255, .4));
 
     dt {
         font: bold 24px $times;
