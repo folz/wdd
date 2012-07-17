@@ -27,6 +27,14 @@ li {
     padding-left: .25em;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .content {
     width: 960px;
     margin: 0 auto;
@@ -55,9 +63,10 @@ li {
     left: -5%;
     overflow: hidden;
     margin: .5em 0;
-    padding: 1em 0 2.5em 0;
-    background: url("/img/bluenoise.png") #765542;
-    @include box-shadow(inset 20px 0 10px rgba(0, 0, 0, .6));
+    padding: 2.5em 0 2.5em 0;
+    background: url("/img/big_blurred_desk.png") #765542;
+    height: 265px;
+    @include box-shadow(inset 70px 0 50px rgba(0, 0, 0, .8));
     @include text-shadow(1px 1px 2px rgba(0, 0, 0, .4));
 }
 
@@ -67,40 +76,36 @@ li {
 }
 
 #hero h1 {    
-    font-family: "Lato", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
-    font-weight: bold;
+    font-family: "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+    color: white;
     font-size: 80px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, .5) 3px 3px 6px;
+}
 
-    .first {
-        color: #ffae3c;
-    }
-
-    .second {
-        color: #7ce7a3;
-    }
-
-    .third {
-        color: #dc5d6e;
-    }
+#header .cta {
+  margin: 0 240px;
+  width: 200px;
+  padding: 14px 50px;
 }
 
 .cta {
-    color: #385214;
+    color: rgb(250, 250, 250);
     @include background(
-        url("/img/greenstripe.png")
-        repeat scroll 0 0 transparent
+        rgba(0, 115, 210, .8)
+        linear-gradient(top, rgb(8, 155, 210), rgb(10, 90, 180))
     );
-    padding: 16px 21px;
+    padding: 14px 21px;
     text-decoration: none;
+    border: 2px solid rgba(40, 40, 40, .3);
     @include text-shadow(0 1px 1px rgba(255, 255, 255, 0.7));
     @include border-radius(7px);
     @include transition(all 0.25s ease 0s);
-    font-family: "Segoe UI", "Lucida Sans", "Tahoma", sans-serif;
-    font-weight: bold;
+    font-family: "Open Sans", "Segoe UI", "Lucida Sans", "Tahoma", sans-serif;
     font-size: 24px;
-    text-transform: uppercase;
     text-align: left;
     outline-style: none;
+    text-shadow: rgba(30, 30, 30, .5) 2px 2px 2px;
 }
 
 .small-cta {
@@ -109,8 +114,9 @@ li {
 }
 
 .cta:hover, .cta:active {
-    color: #333;
-    @include box-shadow(0 0px 5px rgba(255, 255, 255, 0.6));
+    color: white;
+    text-decoration: none;
+    @include box-shadow(0 0px 5px rgba(255, 255, 255, 0.4));
 }
 
 .cta:active {
@@ -121,10 +127,12 @@ li {
 }
 
 #tagline {
-    color: #ffe59c;
+    color: rgba(235, 235, 255, 1);
     padding: .5em 0 3em;
-    font: bold italic 20px "Cambria", "Times New Roman", serif;
+    font: 15px;
     text-transform: uppercase;
+    text-shadow: rgba(30, 30, 30, .8) 2px 1px 1px;
+    text-align: center;
 }
 
 #header aside {

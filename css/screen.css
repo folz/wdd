@@ -1,4 +1,4 @@
-/* line 17, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,50 +15,50 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-/* line 20, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
+/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
   line-height: 1;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -85,130 +85,144 @@ li {
 }
 
 /* line 30, ../scss/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 34, ../scss/screen.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 38, ../scss/screen.scss */
 .content {
   width: 960px;
   margin: 0 auto;
 }
 
-/* line 35, ../scss/screen.scss */
+/* line 43, ../scss/screen.scss */
 .leftright {
   overflow: auto;
 }
 
-/* line 39, ../scss/screen.scss */
+/* line 47, ../scss/screen.scss */
 .leftright .left {
   float: left;
 }
 
-/* line 43, ../scss/screen.scss */
+/* line 51, ../scss/screen.scss */
 .leftright .right {
   float: right;
 }
 
-/* line 47, ../scss/screen.scss */
+/* line 55, ../scss/screen.scss */
 #topbar {
   margin: .5em auto;
   font-size: 14px;
 }
 
-/* line 52, ../scss/screen.scss */
+/* line 60, ../scss/screen.scss */
 #header-container {
   width: 105%;
   position: relative;
   left: -5%;
   overflow: hidden;
   margin: .5em 0;
-  padding: 1em 0 2.5em 0;
-  background: url("/img/bluenoise.png") #765542;
-  -webkit-box-shadow: inset 20px 0 10px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: inset 20px 0 10px rgba(0, 0, 0, 0.6);
-  box-shadow: inset 20px 0 10px rgba(0, 0, 0, 0.6);
+  padding: 2.5em 0 2.5em 0;
+  background: url("/img/big_blurred_desk.png") #765542;
+  height: 265px;
+  -webkit-box-shadow: inset 70px 0 50px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: inset 70px 0 50px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 70px 0 50px rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 64, ../scss/screen.scss */
+/* line 73, ../scss/screen.scss */
 #header {
   width: 740px;
   padding: 0 0 0 5%;
 }
 
-/* line 69, ../scss/screen.scss */
-#hero h1 {
-  font-family: "Lato", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
-  font-weight: bold;
-  font-size: 80px;
-}
-/* line 74, ../scss/screen.scss */
-#hero h1 .first {
-  color: #ffae3c;
-}
 /* line 78, ../scss/screen.scss */
-#hero h1 .second {
-  color: #7ce7a3;
-}
-/* line 82, ../scss/screen.scss */
-#hero h1 .third {
-  color: #dc5d6e;
+#hero h1 {
+  font-family: "Open Sans", "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 6px;
 }
 
-/* line 87, ../scss/screen.scss */
+/* line 86, ../scss/screen.scss */
+#header .cta {
+  margin: 0 240px;
+  width: 200px;
+  padding: 14px 50px;
+}
+
+/* line 92, ../scss/screen.scss */
 .cta {
-  color: #385214;
-  background: url("/img/greenstripe.png") repeat scroll 0 0 transparent;
-  padding: 16px 21px;
+  color: #fafafa;
+  background: rgba(0, 115, 210, 0.8) -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #089bd2), color-stop(100%, #0a5ab4));
+  background: rgba(0, 115, 210, 0.8) -webkit-linear-gradient(top, #089bd2, #0a5ab4);
+  background: rgba(0, 115, 210, 0.8) -moz-linear-gradient(top, #089bd2, #0a5ab4);
+  background: rgba(0, 115, 210, 0.8) -o-linear-gradient(top, #089bd2, #0a5ab4);
+  background: rgba(0, 115, 210, 0.8) linear-gradient(top, #089bd2, #0a5ab4);
+  padding: 14px 21px;
   text-decoration: none;
+  border: 2px solid rgba(40, 40, 40, 0.3);
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
   border-radius: 7px;
-  -webkit-transition: all 0.25s ease 0s;
+  -webkit-transition: all 0.25s ease;
+  -webkit-transition-delay: 0s;
   -moz-transition: all 0.25s ease 0s;
-  -ms-transition: all 0.25s ease 0s;
   -o-transition: all 0.25s ease 0s;
   transition: all 0.25s ease 0s;
-  font-family: "Segoe UI", "Lucida Sans", "Tahoma", sans-serif;
-  font-weight: bold;
+  font-family: "Open Sans", "Segoe UI", "Lucida Sans", "Tahoma", sans-serif;
   font-size: 24px;
-  text-transform: uppercase;
   text-align: left;
   outline-style: none;
+  text-shadow: rgba(30, 30, 30, 0.5) 2px 2px 2px;
 }
 
-/* line 106, ../scss/screen.scss */
+/* line 111, ../scss/screen.scss */
 .small-cta {
   font-size: 18px;
   padding: 12px 17px;
 }
 
-/* line 111, ../scss/screen.scss */
+/* line 116, ../scss/screen.scss */
 .cta:hover, .cta:active {
-  color: #333;
-  -webkit-box-shadow: 0 0px 5px rgba(255, 255, 255, 0.6);
-  -moz-box-shadow: 0 0px 5px rgba(255, 255, 255, 0.6);
-  box-shadow: 0 0px 5px rgba(255, 255, 255, 0.6);
+  color: white;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0px 5px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 0 0px 5px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0px 5px rgba(255, 255, 255, 0.4);
 }
 
-/* line 116, ../scss/screen.scss */
+/* line 122, ../scss/screen.scss */
 .cta:active {
   background: -webkit-gradient(linear, 100% 100% 90deg, 0% 0% 90deg, color-stop(0%, #ccfe8b), color-stop(100%, #99c757)) repeat scroll 0 0 transparent;
   background: -webkit-linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
   background: -moz-linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
   background: -o-linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
-  background: -ms-linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
   background: linear-gradient(100% 100% 90deg, #ccfe8b, #99c757) repeat scroll 0 0 transparent;
 }
 
-/* line 123, ../scss/screen.scss */
+/* line 129, ../scss/screen.scss */
 #tagline {
-  color: #ffe59c;
+  color: #ebebff;
   padding: .5em 0 3em;
-  font: bold italic 20px "Cambria", "Times New Roman", serif;
+  font: 15px;
   text-transform: uppercase;
+  text-shadow: rgba(30, 30, 30, 0.8) 2px 1px 1px;
+  text-align: center;
 }
 
-/* line 130, ../scss/screen.scss */
+/* line 138, ../scss/screen.scss */
 #header aside {
   display: inline;
   position: relative;
@@ -218,22 +232,22 @@ li {
   padding-left: .5em;
 }
 
-/* line 139, ../scss/screen.scss */
+/* line 147, ../scss/screen.scss */
 #main-container {
   line-height: 1.3em;
   padding: 1em 0;
 }
-/* line 145, ../scss/screen.scss */
+/* line 153, ../scss/screen.scss */
 #main-container dt {
   font-weight: bold;
 }
-/* line 149, ../scss/screen.scss */
+/* line 157, ../scss/screen.scss */
 #main-container dd {
   padding-left: 3em;
   margin-bottom: 1em;
 }
 
-/* line 156, ../scss/screen.scss */
+/* line 164, ../scss/screen.scss */
 #footer-container {
   margin-top: 1em;
   height: 200px;
